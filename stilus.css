@@ -1,0 +1,21 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+article div
+{
+    border: 1px solid black;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+article
+{
+    display: grid;
+    max-width: 800px;
+    margin: auto;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8,100px);
+}
