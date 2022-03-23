@@ -7,7 +7,7 @@ function ID(elem)
 
 function $(elem)
 {
-    return document.querySelectorAll(elem);
+    return document.querySelectorAll(elem); // minden html elemre lehet hivatkozni
 }
 
 function Class(elem)
@@ -59,13 +59,13 @@ function sakktablaSzinezes()
                 sakkElemTomb[i].style.backgroundColor= "black";
             }
         }
-            else
+        else
+        {
+            if (i%2===1) 
             {
-                if (i%2===1) 
-                {
-                    sakkElemTomb[i].style.backgroundColor="black";    
-                }
+                sakkElemTomb[i].style.backgroundColor="black";    
             }
+        }
     }
 
 }
