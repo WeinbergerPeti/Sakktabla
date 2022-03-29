@@ -101,27 +101,27 @@ function sakkFigura()
     for (let i = 0; i < sakkElemTomb.length; i++) 
     {
         /* console.log(sakkElemTomb[i]); */
-        if((i===0 | i===7) | (i===sakkElemTomb.length-1 | i===56))
+        if((i===0 || i===7) || (i===sakkElemTomb.length-1 || i===56))
         {
             sakkElemTomb[i].innerHTML=bastya;
         }
-        else if((i===1 | i===6) | (i===sakkElemTomb.length-2 | i===57))
+        else if((i===1 || i===6) || (i===sakkElemTomb.length-2 || i===57))
         {
             sakkElemTomb[i].innerHTML=futo;
         }
-        else if((i===2 | i===5) | (i===sakkElemTomb.length-3 | i===58))
+        else if((i===2 || i===5) || (i===sakkElemTomb.length-3 || i===58))
         {
             sakkElemTomb[i].innerHTML=huszar;
         }
-        else if(i===3 | i===sakkElemTomb.length-5)
+        else if(i===3 || i===sakkElemTomb.length-5)
         {
             sakkElemTomb[i].innerHTML=kiralyno;
         }
-        else if(i===4 | i===sakkElemTomb.length-4)
+        else if(i===4 || i===sakkElemTomb.length-4)
         {
             sakkElemTomb[i].innerHTML=kiraly;
         }
-        else if((i>=8 && i<16) | (i>=48 && i<56))
+        else if((i>=8 && i<16) || (i>=48 && i<56))
         {
             sakkElemTomb[i].innerHTML=gyalog;
         }
