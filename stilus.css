@@ -9,6 +9,9 @@ article div
 {
     border: 1px solid black;
     grid-template-columns: repeat(8, 1fr);
+    color: blue;
+    font-size: 50pt;
+    text-align: center;
 }
 
 article
@@ -18,4 +21,10 @@ article
     margin: auto;
     grid-template-columns: repeat(8, 100px);
     grid-template-rows: repeat(8,100px);
+}
+
+.sakktabla
+{
+    color: blue;
+    font-size: 20pt;
 }
