@@ -2,7 +2,7 @@ window.addEventListener("load", init);
 
 function ID(elem)
 {
-    return document.getElementById("ID");
+    return document.getElementById(elem);
 }
 
 function $(elem)
